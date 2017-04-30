@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/labelReportProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="107dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        android:text="@string/label_enter_progress"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/labelProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/labelReportProgress"
+        android:layout_marginTop="26dp"
+        android:paddingLeft="10dp"
+        android:text="@string/progress"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/textProgress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelReportProgress"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/labelProgress"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/percentageSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/labelProgress"
+        android:layout_toEndOf="@+id/textProgress"
+        android:layout_marginStart="5dp"
+        android:text="%"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnProgressDialogSave"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textProgress"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="38dp"
+        android:background="@android:color/transparent"
+        android:text="@string/label_save"
+        android:textSize="18dp"
+        tools:style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+    <Button
+        android:id="@+id/btnProgressDialogCancel"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textProgress"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="38dp"
+        android:background="@android:color/transparent"
+        android:text="@string/label_cancel"
+        android:textSize="18dp"
+        tools:style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+
+
+
+</RelativeLayout>

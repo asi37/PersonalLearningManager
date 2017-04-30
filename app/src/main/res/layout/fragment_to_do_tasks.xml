@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ranch.android.plm.ToDoTasksFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <SearchView
+            android:layout_width="@dimen/card_width"
+            android:layout_height="32sp"
+            android:elevation="4dp">
+        </SearchView>
+
+        <ListView
+            android:id="@+id/taskToDoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scrollbars="horizontal">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

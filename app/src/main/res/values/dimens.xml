@@ -1,0 +1,30 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+    <dimen name="activity_horizonal_margin">16dp</dimen>
+    <dimen name="frame_width">160dp</dimen>
+    <dimen name="card_padding">200dp</dimen>
+
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">148dp</dimen>
+    <dimen name="card_width">353dp</dimen>
+    <dimen name="card_height">70dp</dimen>
+    <dimen name="prog_txt_size">16dp</dimen>
+    <dimen name="deadline_txt_size">16dp</dimen>
+    <dimen name="prog_layout_width">158dp</dimen>
+    <dimen name="assignment_txt_marginLeft">15dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="text_width_add">100dp</dimen>
+    <dimen name="txt_size_add">14sp</dimen>
+    <dimen name="card_elevation_add">3dp</dimen>
+    <dimen name="task_card_top_margin">10dp</dimen>
+    <dimen name="card_task_layout_margin">4dp</dimen>
+
+</resources>
